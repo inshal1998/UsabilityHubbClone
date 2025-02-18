@@ -62,12 +62,12 @@ ul {
     align-items: center;
 }
 
-.hover-links {
+.hover-link {
     color: var(--primary-text-color);
     transition: 0.2 ease-out;
 }
 
-.hover-links:hover {
+.hover-link:hover {
     color: var(--accent-color);
 }
 
@@ -278,4 +278,20 @@ header {
 .cta-section-container p{
     color: #fff;
     margin-top: 20px;
+}
+
+footer {
+    padding: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
 }
